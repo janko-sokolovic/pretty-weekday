@@ -1,4 +1,4 @@
-# Pretty weekdays v0.2.0
+# Pretty weekdays v1.0.0
 
 ## Installation
 
@@ -9,14 +9,19 @@ In a browser:
 
 Using npm:
 ```shell
-$ npm i -g npm
 $ npm i --save pretty-weekday
 ```
-In Node.js:
+
+
+## Usage
 ```js
-// Load the full build.
-var prettyWeekday = require('pretty-weekday');
+var PrettyWeekday = require('pretty-weekday');
 
-prettyWeekday(1) // { name: "Monday", short: "Mon" }
+PrettyWeekday.toPrettyDay(1) // { name: "Monday", short: "Mon" }
 
+```
+
+## Test
+```shell
+$ npm test
 ```

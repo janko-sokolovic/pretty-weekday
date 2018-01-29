@@ -1,10 +1,10 @@
 {
   "name": "pretty-weekday",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Get a prettified values for a given day of the week.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -r jsdom-global/register"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,8 @@
   "homepage": "https://github.com/jasofalcon/pretty-weekday#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "jsdom": "11.6.1",
+    "jsdom-global": "3.0.2",
     "mocha": "^5.0.0"
   }
 }
