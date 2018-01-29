@@ -1,6 +1,6 @@
 {
   "name": "pretty-weekday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a prettified values for a given day of the week.",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-# Pretty weekdays v1.0.0
+# Pretty weekdays v1.0.1
 
 ## Installation
 

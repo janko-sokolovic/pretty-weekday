@@ -6,10 +6,10 @@
  * 
  *  Example: PrettyWeekday.toPrettyDay(3) -> returns an object {name: 'Wednesday', short: 'Mon'}
  * 
- *  Version 1.0.0
+ *  Version 1.0.1
  * 
  */
-var PrettyWeekday = (function (window) {
+var PrettyWeekday = (function (global) {
     'use strict'
 
     var DAYS_MAP = {
@@ -35,7 +35,7 @@ var PrettyWeekday = (function (window) {
         toPrettyDay: toPrettyDay
     }
 
-})(window)
+})(global)
 
 
 module.exports = PrettyWeekday
